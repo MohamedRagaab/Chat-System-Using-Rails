@@ -1,5 +1,9 @@
 # Chat System
-* Instabug Backend Challenge for the Backend Developer II position.
+* Building a chat system using Ruby on Rails, the system is to receive many requests. It might be running on multiple servers in
+parallel and thus multiple requests may be processed concurrently. It handles race
+conditions. It minimizes the queries and avoids writing directly to MySQL while serving the
+requests(especially for the chats and messages creation endpoints) and it uses a queuing
+system to achieve that and the app is containerized.
 ## Languages and frameworks 📑
 * Ruby on Rails
 * MySql
