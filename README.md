@@ -98,7 +98,7 @@ docker-compose up
 <hr/>
 </div>
 
-## Task Checklist :white_check_mark:
+## Repo Content :white_check_mark:
 - [x] Application Endpoints
 - [x] Chat Endpoints
 - [x] Message Endpoint
